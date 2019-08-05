@@ -51,18 +51,27 @@ nav a{
 nav li a:hover:not(.active) {
   background-color: #c2c4c4;
 }
-
 .active {
   background-color: #4CAF50;
 }
+
+.ab-section{
+	background-color: #262729;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content:  center;
+	height: 50vh;
+	padding: 0 10px;
+}
+
 
 .about, .sec-port{
  	border: solid 1px white; 
  	box-sizing: border-box;
  	line-height: 1.5;
  	text-align: center;
- 	padding: 5px; 
- 	width: 100%;
+ 	padding: 10px; 
  }
  h2{
  	clear: both;
@@ -94,21 +103,15 @@ nav li a:hover:not(.active) {
 .center-img{
 	margin: 0 10vw;
 }
-.sec-port{
-	display: flex; 
- 	flex-direction: column;
- 	align-items: center;
-}
- 
 .ab-footer, .ab-section, .sec-port{
 	background-color: #262729;
 	color: white;
-	height: auto;
-	margin: 0;
-	padding: 60px; 
-	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 15px;
 }
-
+ 
 .exp img{
 	width: 100%;
     height: auto;
